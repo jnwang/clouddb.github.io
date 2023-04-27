@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据研讨会</title>
+    <link rel="stylesheet" href="./common/portal-global.css">
+    <link rel="stylesheet" href="./css/commons.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <!-- 头部文件  上线时删除 -->
+    <div id="header1-1" class="cloun">
+
+        <div class="log-tlt">
+            <div class="e-block bz-header">
+                <div class="e-cistern-l main-header">
+                    <div class="logo">
+                        <img alt="Huawei" src="./img/logo.svg" class="img-block" />
+                    </div>
+                    <nav class="nav-new">
+                        <ul class="ul">
+                            <li class="li" data-key="Workshop"><a class="one-nav" href="#meun1">Workshop</a></li>
+                            <li class="li" data-key="Workshop Overview"><a class="one-nav" href="#meun2">Workshop Overview</a></li>
+                            <li class="li" data-key="Topics of Interest"><a class="one-nav" href="#meun3">Topics of Interest</a></li>
+                            <li class="li" data-key="Organization"><a class="one-nav" href="#meun4">Organization</a></li>
+                            <li class="li" data-key="Important Dates"><a class="one-nav" href="#meun5">Important Dates</a></li>
+                            <li class="li" data-key="Submission"><a class="one-nav" href="#meun6">Submission</a></li>
+                        </ul>
+
+                    </nav>
+
+                    <div class="main-header">
+                        <a href="https://vldb.org/2023/" target="_blank" class="logo logo1">
+                            <img alt="Huawei" src="./img/logo1.svg" class="img-block1" />
+                        </a>
+                        <a id="mob-menubtn">
+                            <img class="icon" src="./img/mob_list.png" alt="">
+                        </a>
+                        <a id="close-menubtn">
+                            <img class="icon" src="./img/mob_cl.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体文件 -->
+    <div class="con-sjzd" id="meun1">
+        <div class="img_box">
+            <img class="pc_show" src="./img/kv.png" alt="">
+            <img class="mob_show" src="./img/kv-mob.png" alt="">
+        </div>
+        <div class="box-tit">
+            <h2>Workshop on Cloud Databases (CloudDB)</h2>
+            <p>In conjunction with <a href="https://vldb.org/2023/" target="_blank">49th International Conference on Very Large Data Bases</a>(VLDB)</p>
+            <div class="font">
+                <p><img src="./img/weizi.png">Vancouver</p>
+                <p><img src="./img/time.png">August 28, 2023</p>
+            </div>
+        </div>
+    </div>
+    <div class="bon-tainer">
+       <div class="z_bg">
+        <div class="data-1" id="meun2">
+            <div class="z_max">
+                <div class="z_title">
+                    Workshop Overview
+                </div>
+                <div class="z_sec1">
+                    <p>
+                        Cloud providers and database vendors are investing heavily in the development of competitive cloud database offerings, with the goal of providing optimal performance in a cost-effective way for cloud customers. The database community has already contributed significantly towards developing cloud-native OLTP and OLAP databases. Cloud computing pools an abundance of resources and offers them in a pay-as-you-go model. Due to this unique computational environment and business model, there are various research challenges that need to be addressed. These challenges require new research into resource disaggregation, serverless database services, and data movement across multiple cloud providers. Additionally, existing database research topics require re-evaluation such as:
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="./img/ic1.png">
+                            <h2>Multitenancy</h2>
+                            <p>How to manage and efficiently make use of cloud resources (CPU, memory, and network/storage I/O) to support multiple tenants with different SLA requirements. </p>
+                        </li>
+                        <li>
+                            <img src="./img/ic2.png">
+                            <h2>Autonomous Databases</h2>
+                            <p>How to automate database tuning and physical design (e.g., data compression, range partitioning scheme, buffer management policy) based on dynamic cloud workloads.  </p>
+                        </li>
+                        <li>
+                            <img src="./img/ic3.png">
+                            <h2>Resource Usage Prediction</h2>
+                            <p>How to accurately predict resource usage of workloads to manage the cluster of database resources for different types of workloads, TP, AP, etc.  </p>
+                        </li>
+                        <li>
+                            <img src="./img/ic4.png">
+                            <h2>Query Optimizer for Cloud Databases</h2>
+                            <p>How to leverage cloud workloads and resources to design better query optimizers (cardinality estimation, cost model, plan enumeration). </p>
+                        </li>
+                        <li>
+                            <img src="./img/ic5.png">
+                            <h2>Disaggregation</h2>
+                            <p>How to leverage different layers of caches (local cache vs ephemeral storage pool) to accelerate queries. </p>
+                        </li>
+                        <li>
+                            <img src="./img/ic6.png">
+                            <h2>CloudDBA</h2>
+                            <p>How to assist customers in monitoring and optimizing cloud database performance and, when a failure happens, quickly identifying and fixing the failure. </p>
+                        </li>
+                    </ul>
+                    <p>
+                        Our workshop aims to bring together researchers and practitioners from both academia and industry to discuss these challenges as well as possible directions to tackle them. Specifically, the workshop has three objectives. Firstly, it provides a platform for researchers to present their latest research results in the area of cloud databases. Secondly, it provides an opportunity for practitioners to assess the results and provide feedback. Thirdly, and most importantly, it helps researchers and practitioners to build connections and explore potential collaboration.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="data-2" id="meun3">
+            <div class="z_max">
+                <div class="z_title">
+                    Topics of Interest
+                    <span>The suggested topics of interest include, but are not limited to:</span>
+                </div>
+                <div class="z_sec2">
+                    <ul>
+                        <li>Disaggregation</li>
+                        <li>Transaction and Recovery</li>
+                        <li>Query Optimizer</li>
+                        <li>Serverless Database Services</li>
+                    </ul>
+                    <ul>
+                        <li>Multitenancy</li>
+                        <li>Autonomous Databases</li>
+                        <li>CloudDBA</li>
+                        <li>Security</li>
+                        <li>HTAP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="data-3" id="meun4">
+          <div class="z_max">
+            <div class="z_title">
+                Organization
+            </div>
+            <div class="z_sec3">
+                <p>Workshop Co-Chairs</p>
+                <ul class="ul">
+                    <li class="li">
+                        <a href="http://sanjayk.io/" target="_blank" class="img"><img src="./img/ic7.png"></a>
+                        <a href="http://sanjayk.io/" target="_blank" class="dt">
+                            <h2>Sanjay Krishnan</h2>
+                            <p>University of Chicago, USA</p>
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/" target="_blank" class="img"><img src="./img/ic8.png"></a>
+                        <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/" target="_blank" class="dt">
+                            <h2>Guoliang Li</h2>
+                            <p>Tsinghua University, China</p>
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a href="https://www.cs.sfu.ca/~jnwang/" target="_blank" class="img"><img src="./img/ic9.png"></a>
+                        <a href="https://www.cs.sfu.ca/~jnwang/" target="_blank" class="dt">
+                            <h2>Jiannan Wang</h2>
+                            <p>Simon Fraser University, Canada</p>
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a href="https://kai-zeng.github.io/" target="_blank" class="img"><img src="./img/ic10.png"></a>
+                        <a href="https://kai-zeng.github.io/" target="_blank" class="dt">
+                            <h2>Kai Zeng</h2>
+                            <p>Huawei, China</p>
+                        </a>
+                    </li>
+                </ul>
+                <p>Program Committee: TBD</p>
+            </div>
+          </div>
+       </div>
+
+       <div class="data-4" id="meun5">
+          <div class="z_max">
+            <div class="z_title">
+                Important Dates
+                <span class="active">The important dates are listed below:</span>
+            </div>
+            <div class="z_sec4">
+                <ul class="ul">
+                    <li class="li">
+                        <h2>Paper submission</h2>
+                        <div class="dian"></div>
+                        <p>May 31st, 2023</p>
+                    </li>
+                    <li class="li">
+                        <h2>Notification of acceptance</h2>
+                        <div class="dian"></div>
+                        <p>June 30th, 2023</p>
+                    </li>
+                    <li class="li">
+                        <h2>Camera-ready submission</h2>
+                        <div class="dian"></div>
+                        <p>July 20th, 2023</p>
+                    </li>
+                    <li class="li">
+                        <h2>Workshop</h2>
+                        <div class="dian"></div>
+                        <p>August 28th, 2023</p>
+                    </li>
+                </ul>
+            </div>
+          </div>
+       </div>
+
+       <div class="data-5" id="meun6">
+        <div class="z_max">
+            <div class="z_title">Submission</div>
+            <div class="z_sec5">
+                <div class="max">
+                    <div class="nr">
+                        <h2>Submission</h2>
+                    <p><a href="https://cmt3.research.microsoft.com/CloudDB2023" target="_blank">https://cmt3.research.microsoft.com/<span>CloudDB2023</span></a></p>
+                    <h2>Submission Instructions</h2>
+                    <p>We accept both long papers (limited to 12 pages + unlimited space for references) and short papers (limited to 6 pages + unlimited space for references).</p>
+                    <p>Submissions are to be formatted following the standard VLDB template available at: <a href="http://vldb.org/pvldb/vol16-formatting/" target="_blank">http://vldb.org/pvldb/vol16-formatting/</a></p>
+                    <p>Submissions will be reviewed in a single-blind manner. Each submission must include all author names and affiliations. We will use CMT’s conflict management system. All the authors of a submission must declare their conflicts before the paper submission deadline. Papers with incorrect or incomplete CoI information as of the submission closing time will be subject to desk rejection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    
+
+    <script src="./common/jquery-1.12.4.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/carousel.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>
